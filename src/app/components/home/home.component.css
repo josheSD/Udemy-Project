@@ -1,0 +1,94 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* segundo section */
+
+.my-video {
+    position: absolute;
+    z-index: 1;
+}
+
+.my-video video {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .my-video video {
+        display: none;
+    }
+}
+
+.my-video-contenido {
+    position: relative;
+}
+
+.my-video-contenido::after {
+    content: url('../../../assets/img/bg-talleres.jpg');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.my-menu {
+    border-bottom: 1px solid #fe4918;
+}
+
+.my-menu a {
+    font-family: 'Oswald', sans-serif;
+}
+
+.my-colors {
+    color: #fe4918;
+    font-size: 1.2rem;
+}
+
+.my-detalle-evento:nth-child(1) {
+    border-bottom: 1px solid black;
+}
+
+.my-btn {
+    background-color: #fe4918;
+    border-color: #fe4918;
+    color: #fff;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.my-btn:hover {
+    background-color: #e33000;
+    transition: all .3s ease;
+}
+
+
+/* third section */
+
+li {
+    list-style: none
+}
+
+.invitados {
+    background-color: grey;
+}
+
+.invitados-image {
+    position: relative;
+    text-transform: uppercase;
+}
+
+.invitados-name {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 92%;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
