@@ -1,3 +1,5 @@
+/* primer section*/
+
 h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -7,35 +9,20 @@ h3 {
     font-family: 'PT Sans', sans-serif;
 }
 
+.my-main {
+    background-color: #F2F2F2;
+}
+
 
 /* segundo section */
 
-.my-video {
-    position: absolute;
-    z-index: 1;
-}
-
-.my-video video {
-    width: 100%;
-}
-
-@media only screen and (max-width: 767px) {
-    .my-video video {
-        display: none;
-    }
-}
-
-.my-video-contenido {
-    position: relative;
-}
-
-.my-video-contenido::after {
-    content: url('../../../assets/img/bg-talleres.jpg');
+.evento {
+    background-image: url(../../../assets/img/bg-talleres.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
 }
 
 .my-menu {
@@ -69,26 +56,29 @@ h3 {
 }
 
 
-/* third section */
+/* tercer section */
 
 li {
     list-style: none
 }
 
 .invitados {
-    background-color: grey;
+    background-color: #F2F2F2;
 }
 
 .invitados-image {
     position: relative;
-    text-transform: uppercase;
+    width: 100%;
 }
 
 .invitados-name {
     position: absolute;
     bottom: 0;
     margin: 0;
-    width: 92%;
+    left: 0;
+    padding-right: 15px;
     padding-left: 15px;
     background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    text-align: left;
 }
