@@ -71,14 +71,33 @@ li {
     width: 100%;
 }
 
+.invitados-image img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.invitados-image img:hover {
+    -webkit-filter: grayscale(0);
+}
+
 .invitados-name {
     position: absolute;
-    bottom: 0;
-    margin: 0;
-    left: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+    bottom: 16px;
     background-color: rgba(0, 0, 0, 0.55);
     width: 100%;
-    text-align: left;
 }
+
+.invitados-name p {
+    font-family: 'Oswald', sans-serif;
+    color: #fe4918;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+/* cuato section */
