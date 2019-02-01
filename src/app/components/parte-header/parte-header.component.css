@@ -1,0 +1,30 @@
+.header {
+    background-image: url(../../../assets/img/encabezado.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+}
+
+.my-color {
+    color: #fe4918;
+    font-size: 2rem;
+}
+
+.name-sitio {
+    font-size: 8vw;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+    .my-color {
+        font-size: 20px;
+    }
+    .my-content-color {
+        font-size: 12px;
+    }
+    .name-sitio+p {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,16 @@
+<nav class="navbar navbar-dark my-fondo navbar-expand-md">
+    <div class="container">
+        <a [routerLink]="['/home']" class="navbar-brand"><img src="../assets/img/logo.svg" class="img-fluid  my-responsive"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-expanded="fase">
+            <span class="navbar-toggler-icon"></span>
+       </button>
+        <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a [routerLink]="['/conferencia']" [routerLinkActive]="['active']" class="nav-link ">Conferencia</a></li>
+                <li class="nav-item"><a [routerLink]="['/calendario']" [routerLinkActive]="['active']" class="nav-link ">Calendario</a></li>
+                <li class="nav-item"><a [routerLink]="['/invitados']" [routerLinkActive]="['active']" class="nav-link ">Invitados</a></li>
+                <li class="nav-item"><a [routerLink]="['/reservaciones']" [routerLinkActive]="['active']" class="nav-link ">Reservaciones</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

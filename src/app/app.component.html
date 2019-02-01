@@ -1,51 +1,6 @@
 <div class="contenedor">
-
-    <header class="header img-fluid">
-        <div class="container">
-            <div class="row ">
-                <div class="col-12 text-center h3 mt-3">
-                    <a href="#" class="fa fa-facebook text-white text-decoration-none"></a>
-                    <a href="#" class="fa fa-twitter text-white text-decoration-none ml-3"></a>
-                    <a href="#" class="fa fa-pinterest text-white text-decoration-none ml-3"></a>
-                    <a href="#" class="fa fa-youtube text-white text-decoration-none ml-3"></a>
-                </div>
-            </div>
-
-            <div class="row text-center justify-content-around  mt-5 pt-2">
-                <div class="col-4">
-                    <span class="text-white my-content-color"><i class="fa fa-calendar my-color mr-2"></i>10-12 DIC</span>
-                </div>
-                <div class="col-4">
-                    <span class="text-white my-content-color"><i class="fa fa-map-marker my-color mr-2"></i>LIMA - PERU</span>
-                </div>
-            </div>
-
-            <div class="row mt-3">
-                <div class="col-12 text-center">
-                    <h1 class="text-white font-weight-bold name-sitio">GDLWEBCAMP</h1>
-                    <p class="text-white">La mejor conferencia de <strong>diseño web</strong></p>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <nav class="navbar navbar-dark my-fondo navbar-expand-md">
-        <div class="container">
-            <a [routerLink]="['/home']" class="navbar-brand"><img src="../assets/img/logo.svg" class="img-fluid  my-responsive"></a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-expanded="fase">
-                <span class="navbar-toggler-icon"></span>
-           </button>
-            <div class="collapse navbar-collapse" id="menu-principal">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a [routerLink]="['/conferencia']" [routerLinkActive]="['active']" class="nav-link ">Conferencia</a></li>
-                    <li class="nav-item"><a [routerLink]="['/calendario']" [routerLinkActive]="['active']" class="nav-link ">Calendario</a></li>
-                    <li class="nav-item"><a [routerLink]="['/invitados']" [routerLinkActive]="['active']" class="nav-link ">Invitados</a></li>
-                    <li class="nav-item"><a [routerLink]="['/reservaciones']" [routerLinkActive]="['active']" class="nav-link ">Reservaciones</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+    <app-parte-header></app-parte-header>
+    <app-parte-nav></app-parte-nav>
     <router-outlet></router-outlet>
-
+    <app-parte-footer></app-parte-footer>
 </div>

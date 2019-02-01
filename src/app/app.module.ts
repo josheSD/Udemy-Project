@@ -9,6 +9,9 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
 import { InvitadosComponent } from './components/invitados/invitados.component';
 import { ReservacionesComponent } from './components/reservaciones/reservaciones.component';
 import { ErrorComponent } from './components/error/error.component';
+import { ParteHeaderComponent } from './components/parte-header/parte-header.component';
+import { ParteNavComponent } from './components/parte-nav/parte-nav.component';
+import { ParteFooterComponent } from './components/parte-footer/parte-footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ErrorComponent } from './components/error/error.component';
     CalendarioComponent,
     InvitadosComponent,
     ReservacionesComponent,
-    ErrorComponent
+    ErrorComponent,
+    ParteHeaderComponent,
+    ParteNavComponent,
+    ParteFooterComponent
   ],
   imports: [
     BrowserModule,
