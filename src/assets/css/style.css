@@ -23,6 +23,18 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+@media only screen and (max-width: 767px) {
+    .my-color {
+        font-size: 20px;
+    }
+    .my-content-color {
+        font-size: 12px;
+    }
+    .name-sitio+p {
+        font-size: 12px;
+    }
+}
+
 
 /*  PARTE DE NAV */
 
