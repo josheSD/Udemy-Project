@@ -14,3 +14,9 @@
 h3>span {
     color: #fe4918;
 }
+
+@media only screen and (max-width: 767px) {
+    .footer h3 {
+        text-align: center;
+    }
+}
