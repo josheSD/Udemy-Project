@@ -1,0 +1,69 @@
+.registro {
+    background-color: #F2F2F2;
+}
+
+.registro h3 {
+    color: #fe4918;
+    font-size: 1.5em;
+}
+
+.registro .card {
+    border-radius: 0px;
+    transition: all .3s ease;
+}
+
+.registro .card:hover {
+    transform: scale(1);
+    border: 1px solid #fe4918;
+    box-shadow: 0px 0px 30px #666;
+}
+
+.registro .card-body li:nth-child(1) {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.registro .card-title {
+    color: #fe4918;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.registro .fa-check {
+    color: #12BA92;
+    margin-right: 5px;
+}
+
+.registro .my-btn {
+    background-color: #fe4918;
+    border-color: #fe4918;
+    color: #fff;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.registro .my-btn:hover {
+    background-color: #e33000;
+    transition: all .3s ease;
+}
+
+.registro hr {
+    color: red;
+}
+
+.registro h4 {
+    color: #02A6BC;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.registro h6 {
+    font-weight: bold;
+}
+
+.registro label {
+    font-size: 12px;
+    color: #3F5765;
+}

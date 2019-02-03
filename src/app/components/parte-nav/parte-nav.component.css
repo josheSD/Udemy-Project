@@ -6,8 +6,16 @@
     width: 400px;
 }
 
+nav li:nth-child(4) {
+    border-radius: 3px;
+    border: 1px solid #fe4918;
+}
+
 @media only screen and (max-width: 767px) {
     .my-responsive {
         width: 230px;
+    }
+    nav li:nth-child(4) {
+        width: 120px;
     }
 }
