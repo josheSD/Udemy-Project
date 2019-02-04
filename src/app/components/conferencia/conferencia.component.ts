@@ -10,6 +10,8 @@ export class ConferenciaComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  }
+   
+    }
+  
 
 }
