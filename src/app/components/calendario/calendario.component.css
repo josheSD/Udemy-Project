@@ -1,0 +1,29 @@
+/* section calendario*/
+
+.calendario h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.calendario h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.calendario {
+    background-color: #F2F2F2;
+}
+
+.calendario .my-bg {
+    background-color: #fe4919;
+}
+
+.calendario h6 {
+    color: #fe4919;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.calendario .fa {
+    color: #fe4919;
+    margin-right: 5px;
+}

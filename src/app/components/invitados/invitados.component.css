@@ -1,0 +1,42 @@
+/* parte de my-invitado*/
+
+li {
+    list-style: none
+}
+
+.my-invitado {
+    background-color: #F2F2F2;
+}
+
+.my-invitado .invitados-image {
+    position: relative;
+    width: 100%;
+}
+
+.my-invitado .invitados-image img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.my-invitado .invitados-image img:hover {
+    -webkit-filter: grayscale(0);
+}
+
+.my-invitado .invitados-name {
+    position: absolute;
+    bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+}
+
+.my-invitado .invitados-name p {
+    font-family: 'Oswald', sans-serif;
+    color: #fe4918;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
